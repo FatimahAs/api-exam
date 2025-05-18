@@ -1,0 +1,77 @@
+    * {
+    	padding: 0;
+    	margin: 0;
+    	box-sizing: border-box;
+    	/*font-family: ;
+	background: ;*/
+    }
+
+    .content-box {
+    	display: flex;
+    	flex-direction: column;
+    	justify-content: center;
+    	align-items: center;
+    }
+
+    #form-signin {
+    	display: flex;
+    	flex-direction: column;
+    	justify-content: center;
+    	width: 50%;
+    	height: 90vh;
+    }
+
+    #form-registeration {
+    	display: flex;
+    	flex-direction: column;
+    	justify-content: center;
+    	width: 50%;
+    	height: 100vh;
+    }
+
+    input {
+    	width: 50%;
+    	height: 5%;
+    	margin: 5px;
+    	border-radius: 5px;
+    	border: 1px solid #33333346;
+    }
+
+    button {
+    	width: 30%;
+    	border-radius: 5px;
+    	border: none;
+    	color: white;
+    	height: 5%;
+    	margin: 5px;
+    	background-color: blueviolet;
+    }
+
+    button:hover {
+    	background-color: #333;
+    }
+
+    .navbar {
+    	display: flex;
+    	flex-direction: row;
+    	justify-content: space-around;
+    	align-items: center;
+    	margin: 5px;
+    	background: #333;
+    }
+
+    .navbar a {
+    	color: white;
+    }
+
+    #card-country {
+    	display: grid;
+    	grid-template-columns: 1fr 1fr 1fr;
+    	gap: 5px;
+    }
+
+    @media screen and (max-width: 600px) {
+    	#card-country {
+    		grid-template-columns: 1fr;
+    	}
+    }
